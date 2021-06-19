@@ -1,0 +1,31 @@
+.featured_item {
+    position: relative;
+}
+
+.featured_item a {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-decoration: none;
+    right: 0;
+}
+
+.slick-dots {
+    margin: 10px;
+}
+
+.featured_image {
+    height: 330px;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+
+.featured_title {
+    color: antiquewhite;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: 300;
+    box-sizing: border-box;
+}
