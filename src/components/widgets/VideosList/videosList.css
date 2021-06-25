@@ -9,7 +9,7 @@
 .videoListItem_wrapper {
     display: flex;
     border-bottom: 2px solid #d5d5d5;
-    background: #white;
+    background: white;
 }
 
 .videoListItem_wrapper h2 {
@@ -17,11 +17,11 @@
     color: #525252;
 }
 
-.left {
+.first {
     background-size: cover !important;
 }
 
-.left div {
+.first div {
     width: 90px;
     height: 90px;
     background-size: 40px !important;
@@ -30,7 +30,7 @@
     background: url('https://i.imgur.com/Gap4sIP.png');
 }
 
-.right {
+.second {
     flex-grow: 1;
     padding: 10px;
 }
