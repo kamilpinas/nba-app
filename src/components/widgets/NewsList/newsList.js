@@ -54,7 +54,7 @@ class NewsList extends Component {
               enter: "newsList_wrapper",
               enterActive: "newsList_wrapper_enter",
             }}
-            timeout={500}
+            timeout={1000}
             key={i}
           >
             <div key={i}>
